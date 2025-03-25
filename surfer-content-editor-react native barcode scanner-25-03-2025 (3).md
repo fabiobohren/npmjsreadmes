@@ -23,11 +23,11 @@
 
 ## About the Scanbot Barcode Scanner SDK?
 
-The Scanbot Barcode Scanner SDK provides intuitive APIs to integrate fast, reliable barcode scanning into your React Native app.
+The Scanbot [Barcode Scanner SDK](https://scanbot.io/barcode-scanner-sdk/) provides intuitive APIs to integrate fast, reliable barcode scanning into your React Native app.
 
 It works entirely offline and scans barcodes in 0.04 seconds, even in challenging conditions like poor lighting or with damaged codes.
 
-💡 For more details, check out our documentation or see our example app.
+💡 For more details, check out our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/introduction/) or see our [example app](https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native).
 
 ### Supported barcode types
 
@@ -39,11 +39,11 @@ Our library supports all common 1D and 2D barcodes and multiple postal symbologi
 | 2D Barcodes        | QR Code, Micro QR Code, Aztec Code, PDF417 Code, Data Matrix Code, GiroCode, NTIN Code, PPN, UDI, Royal Mail Mailmark, MaxiCode                                 |
 | Postal Symbologies | USPS Intelligent Mail Barcode (IMb), Royal Mail RM4SCC Barcode, Australia Post 4-State Customer Code, Japan Post 4-State Customer Code, KIX                     |
 
-💡 Please visit our docs for a complete overview of the supported barcode symbologies.
+💡 Please visit our [docs](https://docs.scanbot.io/barcode-scanner-sdk/react-native/supported-barcodes/) for a complete overview of the supported barcode symbologies.
 
 ### Changelog
 
-For a detailed list of changes in each version, see the changelog.
+For a detailed list of changes in each version, see the [changelog](https://docs.scanbot.io/barcode-scanner-sdk/react-native/changelog/).
 
 ## How to use the SDK
 
@@ -132,7 +132,7 @@ ScanbotBarcodeSDK
 .catch(err => console.log(err));
 ```
 
-💡 You can test the SDK without a license key for 60 seconds per app session. Need longer testing? Get your free trial license key.
+💡 You can test the SDK without a license key for 60 seconds per app session. Need longer testing? Get your [free trial license key](https://scanbot.io/trial/).
 
 ### Barcode scanner setup
 
@@ -140,7 +140,7 @@ ScanbotBarcodeSDK
 
 The Scanbot Barcode Scanner SDK offers the following scan modes right out-of-the-box, in our ready-to-use UI.
 
-##### Single Scanning:
+##### [Single Scanning](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/#import)
 
 This is the default scanning mode. It is optimized for detecting a single barcode at a time.
 
@@ -157,7 +157,7 @@ const result = await startBarcodeScanner(config);
   <img src="https://scanbot.io/wp-content/uploads/2025/01/barcode-sdk-accordion1.png" width="45%" />
 </p>
 
-##### Multi Scanning:
+##### [Multi Scanning](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/#multiple-scanning)
 
 The barcode scanner can also be configured to scan multiple barcodes simultaneously without closing the scanning screen.
 
@@ -175,7 +175,7 @@ const result = await startBarcodeScanner(config);
   <img src="https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/multi-scanning.png" width="50%" />
 </p>
 
-##### Find & Pick
+##### [Find & Pick](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/#find-and-pick-scanning)
 
 Given one or more barcodes, the SDK visually highlights and scans the correct items for your users. It automatically selects the barcode with the right barcode value from your camera feed.
 
@@ -255,12 +255,12 @@ const result = await startBarcodeScanner(config);Additional information
 
 The Scanbot SDK examples will run for one minute per session without a license. After that, all functionalities and UI components will stop working. 
 
-To try the React Native Barcode Scanner SDK without the one-minute limit, you can request a free, no-strings-attached 7-day trial license.
+To try the React Native Barcode Scanner SDK without the one-minute limit, you can request a free, no-strings-attached [7-day trial license](https://scanbot.io/trial/).
 
-Our pricing model is simple: Unlimited barcode scanning for a flat annual license fee, full support included. There are no tiers, usage charges, or extra fees. Contact our team to receive your quote.
+Our pricing model is simple: Unlimited barcode scanning for a flat annual license fee, full support included. There are no tiers, usage charges, or extra fees. [Contact our team](https://scanbot.io/contact-sales/) to receive your quote.
 
 ### Free developer support
 
-Need help integrating or testing our Barcode Scanner SDK in your React Native project? We offer free developer support via Slack, MS Teams, or email.
+Need help integrating or testing our Barcode Scanner SDK in your React Native project? We offer [free developer support](https://docs.scanbot.io/support/) via Slack, MS Teams, or email.
 
 As a customer, you also get access to a dedicated support Slack or Microsoft Teams channel to talk directly to your Customer Success Manager and our engineers.
