@@ -51,6 +51,7 @@ Our library supports all common 1D and 2D barcodes and multiple postal symbologi
 | 1D Barcodes        | EAN, UPC, Code 128, GS1-128, Code 39, Codabar, ITF, Code 25, Code 32, Code 93, Code 11, MSI Plessey, Standard 2 of 5, IATA 2 of 5, Databar (RSS), GS1 Composite |
 | 2D Barcodes        | QR Code, Micro QR Code, Aztec Code, PDF417 Code, Data Matrix Code, GiroCode, NTIN Code, PPN, UDI, Royal Mail Mailmark, MaxiCode                                 |
 | Postal Symbologies | USPS Intelligent Mail Barcode (IMb), Royal Mail RM4SCC Barcode, Australia Post 4-State Customer Code, Japan Post 4-State Customer Code, KIX                     |
+
 💡 Please visit our docs for a complete overview of the supported barcode symbologies.
 
 ### Changelog
