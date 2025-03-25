@@ -3,23 +3,23 @@
 ## Table of contents
 
 ### [About the Scanbot Barcode Scanner SDK](#about-the-scanbot-barcode-scanner-sdk)
-- [Supported barcode types](#supported-barcode-types)
-- [Changelog](#changelog)
+* [Supported barcode types](#supported-barcode-types)
+* [Changelog](#changelog)
 
 ### [How to use the SDK](#how-to-use-the-sdk)
-- [Installation](#installation)
- - [Requirements](#requirements)
- - [Install steps](#install-steps)
- - [Camera permissions](#camera-permissions)
- - [SDK initialization](#sdk-initialization)
-- [Barcode scanner setup](#barcode-scanner-setup)
- - [Scanning modes](#scanning-modes)
- - [Configuration options](#configuration-options)
- - [UI customization](#ui-customization)
+* [Installation](#installation)
+  * [Requirements](#requirements)
+  * [Install steps](#install-steps)
+  * [Camera permissions](#camera-permissions)
+  * [SDK initialization](#sdk-initialization)
+* [Barcode scanner setup](#barcode-scanner-setup)
+  * [Scanning modes](#scanning-modes)
+  * [Configuration options](#configuration-options)
+  * [UI customization](#ui-customization)
 
 ### [Additional information](#additional-information)
-- [Trial license](#trial-license)
-- [Free developer support](#free-developer-support)
+* [Trial license](#trial-license)
+* [Free developer support](#free-developer-support)
 
 ## About the Scanbot Barcode Scanner SDK?
 
