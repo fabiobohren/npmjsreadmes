@@ -145,8 +145,14 @@ The Scanbot Barcode Scanner SDK offers the following scan modes right out-of-the
 This is the default scanning mode. It is optimized for detecting a single barcode at a time.
 
 ```
-//minumum code snippet comes here (TBD: Waiting for Stefan K)
+/**
+ * Instantiate a configuration object of BarcodeScannerConfiguration and
+ * start the barcode scanner with the configuration
+ */
+const config = new BarcodeScannerConfiguration();
+const result = await startBarcodeScanner(config);
 ```
+
 <p align="left">
   <img src="https://scanbot.io/wp-content/uploads/2025/01/barcode-sdk-accordion1.png" width="45%" />
 </p>
@@ -156,7 +162,13 @@ This is the default scanning mode. It is optimized for detecting a single barcod
 The barcode scanner can also be configured to scan multiple barcodes simultaneously without closing the scanning screen.
 
 ```
-//minimum code snippet comes here (TBD: Waiting for Stefan K)
+/**
+ * Instantiate a configuration object of BarcodeScannerConfiguration and
+ * start the barcode scanner with the configuration
+ */
+const config = new BarcodeScannerConfiguration();
+config.useCase = new MultipleScanningMode();
+const result = await startBarcodeScanner(config);
 ```
 
 <p align="left">
@@ -168,8 +180,29 @@ The barcode scanner can also be configured to scan multiple barcodes simultaneou
 Given one or more barcodes, the SDK visually highlights and scans the correct items for your users. It automatically selects the barcode with the right barcode value from your camera feed.
 
 ```
-//minumum code snippet comes here (TBD: Waiting for Stefan K)
+/**
+ * Instantiate a configuration object of BarcodeScannerConfiguration and
+ * start the barcode scanner with the configuration
+ */
+const config = new BarcodeScannerConfiguration();
+config.useCase = new FindAndPickScanningMode();
+config.useCase.expectedBarcodes = [
+  new ExpectedBarcode({
+    barcodeValue: '123456',
+    title: 'numeric barcode',
+    count: 4,
+    image: 'https://avatars.githubusercontent.com/u/1454920',
+  }),
+  new ExpectedBarcode({
+    barcodeValue: 'SCANBOT',
+    title: 'value barcode',
+    count: 3,
+    image: 'https://avatars.githubusercontent.com/u/1454920',
+  }),
+];
+const result = await startBarcodeScanner(config);
 ```
+
 <p align="left">
   <img src="https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/find-pick.png" width="50%" />
 </p>
@@ -188,35 +221,40 @@ The Scanbot React Native Barcode Scanner SDK offers numerous configuration optio
 
 #### **UI customization**
 
-Customize the UI to match your app's look and feel.
-
-💡Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#change-the-visuals-to-suit-your-needs) for a full overview of the visual configuration options.
+Customize the UI to match your app's look and feel. Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#change-the-visuals-to-suit-your-needs) for a full overview of the visual styling options.
 
 ##### Configuring UI Elements:
 
 Tailor interface elements with custom text guidance, enable or disable the Top Bar with color modifications, or configure the Action Bar with features like Flashlight and Zoom buttons.
 
-```
-// Example code snippet comes here (TBD: Waiting for Stefan K)
-// User Guidance
-// Top Bar
-// Action Bar
-```
-
 ##### Palette:
 
 Configure your UI's color palette to match your brand design for a cohesive user experience.
 
-```
-//minumum code snippet comes here (TBD: Waiting for Stefan K)
-```
-
 ##### Localisation:
-
 Easily localize strings displayed on buttons, labels, and text fields.
 
+
 ```
-//minumum code snippet comes here (TBD: Waiting for Stefan K)
+// Example for configuring the Scanbot SDK's UI customization options
+
+/**
+ * Instantiate a configuration object of BarcodeScannerConfiguration and
+ * start the barcode scanner with the configuration
+ */
+const config = new BarcodeScannerConfiguration();
+
+// Adjusting the text for your user guidance
+config.localization.userGuidance = 'Please hold your camera over the barcode';
+
+// Adjusting the text on the 'Cancel' Button
+config.localization.topBarCancelButton = 'Dismiss';
+
+// Changing the color palette
+config.palette.sbColorPrimary = '#000000';
+config.palette.sbColorNegative = '#ff3737';
+
+const result = await startBarcodeScanner(config);Additional information
 ```
 
 ## Additional information
