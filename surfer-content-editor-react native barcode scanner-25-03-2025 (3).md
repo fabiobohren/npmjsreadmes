@@ -27,7 +27,7 @@ The Scanbot Barcode Scanner SDK provides intuitive APIs to integrate fast, relia
 
 It works entirely offline and scans barcodes in 0.04 seconds, even in challenging conditions like poor lighting or with damaged codes.
 
-> 💡 For more details, check out our documentation or see our example app.
+💡 For more details, check out our documentation or see our example app.
 
 ### Supported barcode types
 
@@ -67,7 +67,6 @@ npm install react-native-scanbot-barcode-scanner-sdk
 // Using Expo
 npx expo install react-native-scanbot-barcode-scanner-sdk
 ```
-
 ##### Expo Integration
 
 Expo projects require a development build. Configure the project using our config plugin by adding this to your app config file:
@@ -86,13 +85,13 @@ Expo projects require a development build. Configure the project using our confi
 ],
 ```
 
-> 💡 See our [full installation guide](https://docs.scanbot.io/barcode-scanner-sdk/react-native/detailed-setup-guide/installation/) for complete details.
+💡 See our [full installation guide](https://docs.scanbot.io/barcode-scanner-sdk/react-native/detailed-setup-guide/installation/) for complete details.
 
 #### Camera permissions
 
 Our SDK needs camera access to scan from a live camera stream.
 
-> 💡If you use Expo, the permissions can be configured using our config plugin, and this step can be skipped.
+**Note**: If you use Expo, the permissions can be configured using our config plugin, and this step can be skipped.
 
 ##### Android[​](https://docs.scanbot.io/barcode-scanner-sdk/react-native/detailed-setup-guide/permissions/#android)
 
@@ -133,7 +132,7 @@ ScanbotBarcodeSDK
 .catch(err => console.log(err));
 ```
 
-> 💡 You can test the SDK without a license key for 60 seconds per app session. Need longer testing? Get your free trial license key.
+💡 You can test the SDK without a license key for 60 seconds per app session. Need longer testing? Get your free trial license key.
 
 ### Barcode scanner setup
 
@@ -152,7 +151,7 @@ This is the default scanning mode. It is optimized for detecting a single barcod
   <img src="https://scanbot.io/wp-content/uploads/2025/01/barcode-sdk-accordion1.png" width="45%" />
 </p>
 
-##### MULTI Scanning:
+##### Multi Scanning:
 
 The barcode scanner can also be configured to scan multiple barcodes simultaneously without closing the scanning screen.
 
@@ -181,7 +180,6 @@ The Scanbot React Native Barcode Scanner SDK offers numerous configuration optio
 
 * **Barcode Filters**: Apply filters by barcode type or content, with regex pattern support to capture only relevant barcodes. See our [API References](https://scanbotsdk.github.io/documentation/barcode-scanner-sdk/react-native/api-docs/index.html) for a full overview.
 
-
 * [**AR Overlay**](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#ar-overlay)**:** Optional feature providing real-time barcode highlighting, preview, and tap-to-select functionality. Recognized barcodes are highlighted with customizable frames and text.
 
 * [**Barcode Parsers**](https://docs.scanbot.io/barcode-scanner-sdk/react-native/supported-barcodes/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#data-parsers): Extract structured information from 2D barcodes like QR and Data Matrix codes. These include parsers for documents such as driving licenses (AAMVA), boarding passes, medical certificates, SEPA forms, Swiss QR codes, and vCard business cards.
@@ -192,9 +190,9 @@ The Scanbot React Native Barcode Scanner SDK offers numerous configuration optio
 
 Customize the UI to match your app's look and feel.
 
-> 💡Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#change-the-visuals-to-suit-your-needs) for a full overview of the visual configuration options.
+💡Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#change-the-visuals-to-suit-your-needs) for a full overview of the visual configuration options.
 
-##### **Configuring UI Elements:**
+##### Configuring UI Elements:
 
 Tailor interface elements with custom text guidance, enable or disable the Top Bar with color modifications, or configure the Action Bar with features like Flashlight and Zoom buttons.
 
@@ -205,7 +203,7 @@ Tailor interface elements with custom text guidance, enable or disable the Top B
 // Action Bar
 ```
 
-##### **Palette:**
+##### Palette:
 
 Configure your UI's color palette to match your brand design for a cohesive user experience.
 
@@ -213,7 +211,7 @@ Configure your UI's color palette to match your brand design for a cohesive user
 //minumum code snippet comes here (TBD: Waiting for Stefan K)
 ```
 
-##### **Localisation:**
+##### Localisation:
 
 Easily localize strings displayed on buttons, labels, and text fields.
 
