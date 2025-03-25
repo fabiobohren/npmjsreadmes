@@ -6,7 +6,7 @@
 * [Supported barcode types](#supported-barcode-types)
 * [Changelog](#changelog)
 
-### [How to use the SDK](#how-to-use-the-sdk)
+### [How to use the SDK](#how-to-use-the-sdk-1)
 * [Installation](#installation)
   * [Requirements](#requirements)
   * [Install steps](#install-steps)
