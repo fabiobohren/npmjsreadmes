@@ -211,7 +211,7 @@ const result = await startBarcodeScanner(config);
 
 The Scanbot React Native Barcode Scanner SDK offers numerous configuration options:
 
-* **Barcode Filters**: Apply filters by barcode type or content, with regex pattern support to capture only relevant barcodes. See our [API References](https://scanbotsdk.github.io/documentation/barcode-scanner-sdk/react-native/api-docs/index.html) for a full overview.
+* [**Barcode Filters**](https://scanbotsdk.github.io/documentation/barcode-scanner-sdk/react-native/api-docs/index.html): Apply filters by barcode type or content, with regex pattern support to capture only relevant barcodes.
 
 * [**AR Overlay**](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#ar-overlay)**:** Optional feature providing real-time barcode highlighting, preview, and tap-to-select functionality. Recognized barcodes are highlighted with customizable frames and text.
 
@@ -223,17 +223,9 @@ The Scanbot React Native Barcode Scanner SDK offers numerous configuration optio
 
 Customize the UI to match your app's look and feel. Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-native/barcode-scanner/ui-components/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#change-the-visuals-to-suit-your-needs) for a full overview of the visual styling options.
 
-##### Configuring UI Elements:
-
-Tailor interface elements with custom text guidance, enable or disable the Top Bar with color modifications, or configure the Action Bar with features like Flashlight and Zoom buttons.
-
-##### Palette:
-
-Configure your UI's color palette to match your brand design for a cohesive user experience.
-
-##### Localisation:
-Easily localize strings displayed on buttons, labels, and text fields.
-
+* **Configuring UI Elements:** Tailor interface elements with custom text guidance, enable or disable the Top Bar with color modifications, or configure the Action Bar with features like Flashlight and Zoom buttons.
+* **Palette:** Configure your UI's color palette to match your brand design for a cohesive user experience.
+* **Localisation:** Easily localize strings displayed on buttons, labels, and text fields.
 
 ```
 // Example for configuring the Scanbot SDK's UI customization options
