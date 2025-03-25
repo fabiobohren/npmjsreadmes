@@ -2,37 +2,24 @@
 
 ## Table of contents
 
-* About the Scanbot Barcode Scanner SDK?
+### [About the Scanbot Barcode Scanner SDK](#about-the-scanbot-barcode-scanner-sdk)
+- [Supported barcode types](#supported-barcode-types)
+- [Changelog](#changelog)
 
-  * Supported barcode types
+### [How to use the SDK](#how-to-use-the-sdk)
+- [Installation](#installation)
+ - [Requirements](#requirements)
+ - [Install steps](#install-steps)
+ - [Camera permissions](#camera-permissions)
+ - [SDK initialization](#sdk-initialization)
+- [Barcode scanner setup](#barcode-scanner-setup)
+ - [Scanning modes](#scanning-modes)
+ - [Configuration options](#configuration-options)
+ - [UI customization](#ui-customization)
 
-  * Changelog
-
-* How to use the SDK
-
-  * Installation
-
-    * Requirements
-
-    * Install steps
-
-    * Camera permissions
-
-    * SDK initialization
-
-  * Barcode scanner setup
-
-    * Scanning modes
-
-    * Configuration options
-
-    * UI customization
-
-* Additional information
-
-  * Trial license
-
-  * Free developer support
+### [Additional information](#additional-information)
+- [Trial license](#trial-license)
+- [Free developer support](#free-developer-support)
 
 ## About the Scanbot Barcode Scanner SDK?
 
@@ -161,18 +148,21 @@ This is the default scanning mode. It is optimized for detecting a single barcod
 ```
 //minumum code snippet comes here (TBD: Waiting for Stefan K)
 ```
-
-![](https://scanbot.io/wp-content/uploads/2025/01/barcode-sdk-accordion1.png)
+<p align="left">
+  <img src="https://scanbot.io/wp-content/uploads/2025/01/barcode-sdk-accordion1.png" width="45%" />
+</p>
 
 ##### MULTI Scanning:
 
 The barcode scanner can also be configured to scan multiple barcodes simultaneously without closing the scanning screen.
 
 ```
-//minumum code snippet comes here (TBD: Waiting for Stefan K)
+//minimum code snippet comes here (TBD: Waiting for Stefan K)
 ```
 
-![Multi Scanning](https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/multi-scanning.png)
+<p align="left">
+  <img src="https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/multi-scanning.png" width="50%" />
+</p>
 
 ##### Find & Pick
 
@@ -181,8 +171,9 @@ Given one or more barcodes, the SDK visually highlights and scans the correct it
 ```
 //minumum code snippet comes here (TBD: Waiting for Stefan K)
 ```
-
-![Find and Pick](https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/find-pick.png)
+<p align="left">
+  <img src="https://github.com/doo/scanbot-barcode-scanner-sdk-example-react-native/raw/master/.images/find-pick.png" width="50%" />
+</p>
 
 #### Configuration options
 
