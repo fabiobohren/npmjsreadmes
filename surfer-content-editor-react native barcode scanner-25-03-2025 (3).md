@@ -58,7 +58,7 @@ Check out our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/react-
 Install the Scanbot Barcode Scanner SDK module by running:
 
 ```
-// Using Yearn
+// Using Yarn
 yarn add react-native-scanbot-barcode-scanner-sdk
 
 // Using npm
@@ -225,7 +225,7 @@ Customize the UI to match your app's look and feel. Please refer to our [documen
 
 * **Configuring UI Elements:** Tailor interface elements with custom text guidance, enable or disable the Top Bar with color modifications, or configure the Action Bar with features like Flashlight and Zoom buttons.
 * **Palette:** Configure your UI's color palette to match your brand design for a cohesive user experience.
-* **Localisation:** Easily localize strings displayed on buttons, labels, and text fields.
+* **Localization:** Easily localize strings displayed on buttons, labels, and text fields.
 
 ```
 // Example for configuring the Scanbot SDK's UI customization options
@@ -246,7 +246,7 @@ config.localization.topBarCancelButton = 'Dismiss';
 config.palette.sbColorPrimary = '#000000';
 config.palette.sbColorNegative = '#ff3737';
 
-const result = await startBarcodeScanner(config);Additional information
+const result = await startBarcodeScanner(config);
 ```
 
 ## Additional information
