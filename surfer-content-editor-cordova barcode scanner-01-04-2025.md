@@ -1,3 +1,28 @@
+# Scanbot Cordova Barcode Scanner SDK
+
+## About the Scanbot Barcode Scanner SDK?
+
+The Scanbot [Barcode Scanner SDK](https://scanbot.io/barcode-scanner-sdk/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites) provides intuitive APIs to integrate fast, reliable barcode scanning into your Cordova app.
+
+It works entirely offline and scans barcodes in 0.04 seconds, even in challenging conditions like poor lighting or with damaged codes.
+
+💡 For more details, check out our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/cordova/introduction/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites) or see our [example app](https://github.com/doo/scanbot-barcode-scanner-sdk-example-cordova-ionic).
+
+### Supported barcode types
+
+Our library supports all common 1D and 2D barcodes and multiple postal symbologies, including:
+
+| Barcode type       | Symbologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1D Barcodes        | [EAN](https://scanbot.io/barcode-scanner-sdk/ean/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [UPC](https://scanbot.io/barcode-scanner-sdk/upc/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Code 128](https://scanbot.io/barcode-scanner-sdk/code-128/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [GS1-128](https://scanbot.io/barcode-scanner-sdk/gs1-128/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Code 39](https://scanbot.io/barcode-scanner-sdk/code-39/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Codabar](https://scanbot.io/barcode-scanner-sdk/codabar/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [ITF](https://scanbot.io/barcode-scanner-sdk/itf-code/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), Code 25, Code 32, Code 93, Code 11, MSI Plessey, Standard 2 of 5, IATA 2 of 5, Databar (RSS), GS1 Composite                                                                                                                                                               |
+| 2D Barcodes        | [QR Code](https://scanbot.io/glossary/qr-code/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Micro QR Code](https://scanbot.io/barcode-scanner-sdk/micro-qr-code/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Aztec Code](https://scanbot.io/barcode-scanner-sdk/aztec-code/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [PDF417 Code](https://scanbot.io/barcode-scanner-sdk/pdf417/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Data Matrix Code](https://scanbot.io/barcode-scanner-sdk/data-matrix/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [GiroCode](https://scanbot.io/glossary/giro-code/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [PPN](https://scanbot.io/glossary/ppn/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [UDI](https://scanbot.io/glossary/udi/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), [Royal Mail Mailmark](https://scanbot.io/barcode-scanner-sdk/royal-mail/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites), MaxiCode |
+| Postal Symbologies | USPS Intelligent Mail Barcode (IMb), Royal Mail RM4SCC Barcode, Australia Post 4-State Customer Code, Japan Post 4-State Customer Code, KIX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+💡 Please visit our [docs](https://docs.scanbot.io/barcode-scanner-sdk/cordova/supported-barcodes/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites) for a complete overview of the supported barcode symbologies.
+
+### Changelog
+
+For a detailed list of changes in each version, see the [changelog](https://docs.scanbot.io/barcode-scanner-sdk/cordova/changelog/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites).
+
 ## How to use the SDK
 
 ### Installation
@@ -84,7 +109,7 @@ var cameraConfig = {
 };
 ```
 
-##### Barcode detection settings
+##### Barcode detection
 
 Additionally, the SDK comes with additional filters for detecting  barcode formats or settings to handle specific barcode types, such as for GS1 parising.
 
@@ -125,3 +150,26 @@ The Scanbot Barcode Scanner SDK supports a variety of data parsers that extract 
 
 💡 Please refer to our [documentation](https://docs.scanbot.io/barcode-scanner-sdk/cordova/supported-barcodes/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites#data-parsers) for a full list of supported data parsers.
 
+## Additional information
+
+### Guides and Tutorials
+
+Integrating the Scanbot Cordova Barcode Scanner plugin into your Cordova app takes just a few minutes, and our step-by-step guides make the process even easier.
+
+💡 Our [Ionic Cordova Barcode Scanner tutorial](https://scanbot.io/techblog/cordova-barcode-scanner-tutorial-how-to-integrate-our-scanning-functionalities/?utm_source=github.com&utm_medium=referral&utm_campaign=dev_sites) walks you through the integration process step by step. Follow along to implement a powerful barcode scanning feature quickly.
+
+Alternatively, check out our [developer blog](https://scanbot.io/techblog/?utm_source=github.com&utm_medium=referral&utm_campaign=dev_sites) for a collection of in-depth tutorials, use cases, and best practices.
+
+### Trial license
+
+The Scanbot SDK will run for one minute per session without a license. After that, all functionalities and UI components will stop working. 
+
+To try the Cordova Barcode Scanner SDK without the one-minute limit, you can request a free, no-strings-attached [7-day trial license](https://scanbot.io/trial/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites).
+
+Our pricing model is simple: Unlimited barcode scanning for a flat annual license fee, full support included. There are no tiers, usage charges, or extra fees. [Contact our team](https://scanbot.io/contact-sales/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites) to receive your quote.
+
+### Free developer support
+
+Need help integrating or testing our Barcode Scanner SDK in your Cordova project? We offer [free developer support](https://docs.scanbot.io/support/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=dev_sites) via Slack, MS Teams, or email.
+
+As a customer, you also get access to a dedicated support Slack or Microsoft Teams channel to talk directly to your Customer Success Manager and our engineers.
